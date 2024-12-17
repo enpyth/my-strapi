@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sr_cases",
+  "info": {
+    "singularName": "sr-case",
+    "pluralName": "sr-cases",
+    "displayName": "sr_case"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
